@@ -22,7 +22,7 @@ function shiftCount(data, n) {
         return data;
     }
     // removing the duplicate items
-    const result = data.filter((el) => !numbersTBeRemoved.includes(el));
+    const result = data.filter((element) => !numbersTBeRemoved.includes(element));
     return result;
 }
 
