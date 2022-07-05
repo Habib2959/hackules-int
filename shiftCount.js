@@ -12,7 +12,7 @@ function shiftCount(data, n) {
             countObj[data[i]]++;
         }
     }
-    // separating the numbers which in repeated more than n times
+    // separating the numbers which is repeated more than n times
     for (const key in countObj) {
         if (countObj[key] > n) {
             numbersTBeRemoved.push(parseInt(key));
